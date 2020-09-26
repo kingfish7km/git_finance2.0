@@ -32,7 +32,7 @@ header .headerTtl {
   width: 400px;
 }
 
-header h4 {
+header h1 {
   float: left;
   width: 400px;
   height: 37px;
@@ -46,4 +46,9 @@ header .navvar {
 
 header .navvar li {
   display: inline-block;
+}
+
+header a{
+  text-decoration: none;
+  color: #fff;
 }
