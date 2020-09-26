@@ -21,13 +21,29 @@
   background-color: #000;
 }
 
-.inner {
+header .inner {
   margin: 0 auto;
   width: 1040px;
-  height: 47px;
+  height: 37px;
 }
 
-.headerTtl {
+header .headerTtl {
   float: left;
   width: 400px;
+}
+
+header h4 {
+  float: left;
+  width: 400px;
+  height: 37px;
+}
+
+header .navvar {
+  float: right;
+  padding: 11px 10px 0 0;
+  text-align: right;
+}
+
+header .navvar li {
+  display: inline-block;
 }
