@@ -21,3 +21,9 @@
   background-color: #000;
 }
 
+.inner {
+  margin: 0 auto;
+  width: 1040px;
+  height: 47px;
+}
+
