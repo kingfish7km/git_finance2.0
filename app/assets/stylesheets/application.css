@@ -34,18 +34,28 @@ header .headerTtl {
 
 header h1 {
   float: left;
-  width: 400px;
+  width: 200px;
   height: 37px;
 }
 
 header .navvar {
   float: right;
-  padding: 11px 10px 0 0;
+  padding: 7px 40px 0 0;
   text-align: right;
 }
 
 header .navvar li {
   display: inline-block;
+}
+
+header .navvar li a{
+  display: table-cell;
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 1em;
+  color: #fff;
+  vertical-align: middle;
+  border-left: 1px solid #ccc;
 }
 
 header a{
