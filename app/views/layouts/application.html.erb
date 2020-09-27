@@ -46,6 +46,15 @@
             <li>
               <a href="">Contact us</a>
             </li>
+            <% if user_signed_in? %>
+              <div class="navvar-A">
+                
+              </div>
+            <% else %>
+              <div class="navvar-B">
+                
+              </div>
+            <% end %>
           </ul>
         </div>
       </div>
