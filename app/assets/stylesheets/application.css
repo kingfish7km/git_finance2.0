@@ -63,3 +63,8 @@ header a{
   color: #fff;
 }
 
+.section {
+  margin: 0 auto;
+  width: 1040px;
+  height: 50px;
+}
