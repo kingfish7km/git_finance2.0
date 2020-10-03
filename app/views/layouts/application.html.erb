@@ -30,7 +30,7 @@
       <div class="inner clearfix">
         <div class="headerTtl clearfix">
           <h1>
-            <a href="">
+            <a href="/">
               金融教育2.0
             </a>
           </h1>
@@ -38,13 +38,13 @@
         <div class="headerNavi clearfix">
           <ul class="navvar">
             <li>
-              <a href="">About us</a>
+              <a href="/about">About us</a>
             </li>
             <li>
-              <a href="">Contents</a>
+              <a href="/contents">Contents</a>
             </li>
             <li>
-              <a href="">Contact us</a>
+              <a href="/contact">Contact us</a>
             </li>
             <% if user_signed_in? %>
               <li>
@@ -52,10 +52,10 @@
               </li>
             <% else %>
               <li>
-                <a href="">Sign in</a>
+                <a href="/users/sign_in">Sign in</a>
               </li>
               <li>
-                <a href="">Sign up</a>
+                <a href="/users/sign_up">Sign up</a>
               </li>
             <% end %>
           </ul>
