@@ -7,6 +7,7 @@ Rails.application.routes.draw do
  get 'contents' => 'top#show'
  get 'contents/0' => 'top#show_0'
  get 'contents/0' => 'questions#new'
+ post 'questions' => 'questions#create'
  get 'contents/1' => 'top#show_1'
  get 'contents/2' => 'top#show_2'
  get 'contents/3' => 'top#show_3'
