@@ -1,6 +1,6 @@
 class TopController < ApplicationController
 
- before_action :move_to_login, except: :index, :show_us, :show_contact, :show
+ before_action :authenticate_user!, only: [:show_0, :show_1, :show_2, :show_3]
  
  def index
  end
@@ -25,11 +25,5 @@ class TopController < ApplicationController
 
  def show_3
  end
-
- private
- def move_to_login
-    redirect_to action: :
-  
-
 
 end
