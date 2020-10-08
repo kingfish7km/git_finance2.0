@@ -1,5 +1,7 @@
 class TopController < ApplicationController
 
+ before_action :move_to_login, except: :index, :show_us, :show_contact, :show
+ 
  def index
  end
 
@@ -23,5 +25,11 @@ class TopController < ApplicationController
 
  def show_3
  end
+
+ private
+ def move_to_login
+    redirect_to action: :
+  
+
 
 end
