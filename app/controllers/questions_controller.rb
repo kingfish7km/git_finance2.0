@@ -4,11 +4,12 @@ class QuestionsController < ApplicationController
   end
   
   def create_0
-    Questions.create(chapter_number: 0, text: question_params[:text], user_id: current_user.id)
+    Question.create(chapter_number: 0, text: question_params[:text], user_id: current_user.id)
   end
   
-  
-  
-  
+  private
+  def question_params
+    params.permit(:text)
+  end
   
 end
