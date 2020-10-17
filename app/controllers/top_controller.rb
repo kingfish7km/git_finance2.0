@@ -15,6 +15,7 @@ class TopController < ApplicationController
  end
  
  def show_0
+  @questions = Question.all
  end
 
  def show_1

@@ -6,3 +6,10 @@
      <%= form.submit %>
   <% end %>
 </div>
+
+<div class="contents-row">
+  <% @questions.each do |question| %>
+    <p><%= question.user.nickname %>さんの質問</p>
+    <p><%= question.text %></p>
+  <% end %>
+</div>
