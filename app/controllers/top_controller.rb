@@ -1,6 +1,6 @@
 class TopController < ApplicationController
 
- before_action :authenticate_user!, only: [:show_0, :show_1, :show_2, :show_3]
+ before_action :authenticate_user!, only: [:show]
  
  def index
  end
@@ -14,17 +14,4 @@ class TopController < ApplicationController
  def show
  end
  
- def show_0
-  @questions = Question.all
- end
-
- def show_1
- end
-
- def show_2
- end
-
- def show_3
- end
-
 end
