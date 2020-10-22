@@ -1,8 +1,8 @@
 class QuestionsController < ApplicationController
   
   def index
-    render template: "app/views/top/show_#{params[:chapter_number]}"
     @questions = Question.where(chapter_number: params[:chapter_number])
+    render "index_#{params[:chapter_number]}"
   end
   
   def new
