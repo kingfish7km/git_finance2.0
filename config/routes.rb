@@ -7,7 +7,9 @@ Rails.application.routes.draw do
  get 'contents' => 'top#show'
  
  scope ':chapter_number' do
-   resources :questions
+   resources :questions do
+       resources :replies, only: [:index]
+   end
  end
 
 end
