@@ -7,7 +7,10 @@ class QuestionsController < ApplicationController
   end
   
   def new
+    @question = Question.new
   end
+  
+  
   
   def create
     Question.create(chapter_number: params[:chapter_number], text: question_params[:text], user_id: current_user.id)
