@@ -9,6 +9,7 @@ Rails.application.routes.draw do
  scope ':chapter_number' do
    resources :questions do
        collection do
+           post :new, path: :new, as: :new, action: :back
            post :confirm
        end
        resources :replies, only: [:index]

@@ -10,12 +10,15 @@ class QuestionsController < ApplicationController
     @question = Question.new
   end
   
-  
   def confirm
+    @question = Question.new
     return if @question.valid?
     redirect_to action: :index
   end
   
+  def back
+    render :new
+  end
   
   def create
     Question.create(chapter_number: params[:chapter_number], text: question_params[:text], user_id: current_user.id)
