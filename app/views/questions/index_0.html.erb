@@ -1,15 +1,15 @@
 <p>Chapter_0 手段と目的</p>
 
-<div class="contents-row">
-  <%= form_for @question, url: { action: "create" } do |f| %>
-     <%= f.text_field :text %>
-     <%= submit_tag 'submit' %>
-  <% end %>
-</div>
+<p>質問はございませんか？</p>
+<p>金融教育2.0では質問がございましたら、回答させて頂きます。</p>
+<%= link_to '質問を投稿する', '/0/questions/new' %>
+
+<p>これまで頂いた質問一覧</p>
 
 <div class="contents-row">
   <% @questions.each do |question| %>
     <p><%= question.user.nickname %>さんの質問</p>
     <p><%= question.text %></p>
+    <%= link_to 'この質問に対する回答を見る', "/#{question.chapter_number}/questions/#{question.id}", method: :get %>
   <% end %>
 </div>

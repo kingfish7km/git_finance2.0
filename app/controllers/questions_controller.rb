@@ -10,6 +10,11 @@ class QuestionsController < ApplicationController
     @question = Question.new
   end
   
+  def show
+    @question = Question.where(id: params[:id])
+    @replies =　Reply.where(question_id: params[:id])
+  end
+    
   def create
     Question.create(chapter_number: params[:chapter_number], text: question_params[:text], user_id: current_user.id)
   end
