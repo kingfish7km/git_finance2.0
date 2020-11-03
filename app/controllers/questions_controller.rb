@@ -1,7 +1,6 @@
 class QuestionsController < ApplicationController
   
   def index
-    @question = Question.new
     @questions = Question.where(chapter_number: params[:chapter_number])
     render "index_#{params[:chapter_number]}"
   end
@@ -11,8 +10,8 @@ class QuestionsController < ApplicationController
   end
   
   def show
-    @question = Question.where(id: params[:id])
-    @replies =　Reply.where(question_id: params[:id])
+    @question = Question.find(params[:id])
+    @replies = @question.replies
   end
     
   def create
