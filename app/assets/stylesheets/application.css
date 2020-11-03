@@ -108,3 +108,15 @@ header a{
   font-size: 20px;
   color: black;
 }
+
+.site-title-sub-0{
+  text-align: center;
+  margin: 0 auto;
+  padding: 25vh 0;
+  width: 1040px;
+  color: #fff;
+  font-size: 1.5rem;
+  background: url('https://publicdomainq.net/images/201801/17s/publicdomainq-0017946wxs.jpg') fixed;
+  background-size: cover;
+}
+
