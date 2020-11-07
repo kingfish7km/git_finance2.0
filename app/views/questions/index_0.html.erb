@@ -1,8 +1,17 @@
+<div class="questions-index-title">
+  <h2 class="Qtitle">「Chapter_0 手段と目的」について、これまで頂いた質問</h2>
+</div>
 
 <div class="contents-row">
   <% @questions.each do |question| %>
-    <p><%= question.user.nickname %>さんの質問</p>
-    <p><%= question.text %></p>
-    <%= link_to 'この質問に対する回答を見る', "/#{question.chapter_number}/questions/#{question.id}", method: :get %>
+    <div class="Question">
+      <div class="Q-icon">
+         <h2 class="Q">Q</h2>
+      </div>
+      <div class="Q-text">
+        <p><%= question.text %></p>
+        <%= link_to 'この質問に対する回答を見る', "/#{question.chapter_number}/questions/#{question.id}", method: :get %>
+      </div>
+    </div>
   <% end %>
 </div>

@@ -158,3 +158,34 @@ header a{
   font-size: 20px;
 }
 
+.questions-index-title {
+  margin: 20px auto;
+  width: 1040px;
+}
+
+.Qtitle {
+  border-left: thick solid red;
+  text-align: left;
+  padding: 15px 10px;
+}
+
+.contents-row {
+  margin: 40px auto;
+  width: 1040px;
+}
+
+.Question {
+  margin: 0 auto;
+  width: 1040px;
+  height: 100px;
+}
+
+.Q-icon{
+  float: left;
+  width: 50px;
+}
+
+.Q-text{
+  
+}
+
