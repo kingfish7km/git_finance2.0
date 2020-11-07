@@ -126,17 +126,33 @@ header a{
   padding: 20px 10px;
 }
 
-.question-button{
+.new-question-button{
   margin: 0 auto;
   border-radius: 100vh;
   background-color: #f56500;
   width: 170px;
   height: 40px;
   line-height: 40px;
-  text-align: center
+  text-align: center;
 }
 
-.question-button-li{
+.new-question-button-li{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.questions-index-button{
+  margin: 0 auto;
+  border-radius: 100vh;
+  background-color: #0066cc;
+  width: 350px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.questions-index-button-li{
   text-decoration: none;
   color: #fff;
   font-size: 20px;
