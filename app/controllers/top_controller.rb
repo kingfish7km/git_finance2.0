@@ -14,4 +14,13 @@ class TopController < ApplicationController
  def show
  end
  
+ def show_0
+ end
+
+ def show_1
+ end
+ 
+ def show_2
+ end
+ 
 end
