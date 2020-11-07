@@ -120,3 +120,24 @@ header a{
   background-size: cover;
 }
 
+.ask-about-questions{
+  border-left: thick solid red;
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.question-button{
+  margin: 0 auto;
+  border-radius: 100vh;
+  background-color: #f56500;
+  width: 170px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center
+}
+
+.question-button-li{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
