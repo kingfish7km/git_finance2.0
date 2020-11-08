@@ -9,8 +9,12 @@
          <h2 class="Q">Q</h2>
       </div>
       <div class="Q-text">
-        <p><%= question.text %></p>
-        <%= link_to 'この質問に対する回答を見る', "/#{question.chapter_number}/questions/#{question.id}", method: :get %>
+        <div class="text">
+          <p><%= question.text %></p>  
+        </div>
+        <div class="reply-button">
+          <%= link_to 'この質問に対する回答を見る ▶︎', "/#{question.chapter_number}/questions/#{question.id}", method: :get, class: "reply-button-li" %>
+        </div>
       </div>
     </div>
   <% end %>

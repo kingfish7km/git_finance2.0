@@ -175,17 +175,51 @@ header a{
 }
 
 .Question {
-  margin: 0 auto;
+  margin: 20px auto;
   width: 1040px;
   height: 100px;
+  display: flex;
+  background-color: #ffc0cb;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .Q-icon{
-  float: left;
   width: 50px;
 }
 
-.Q-text{
-  
+.Q-icon .Q {
+  width: 50px;
+  border-radius: 50%;
+  background-color: #f56500;
+  color: #fff;
+  text-align: center;
 }
 
+.Q-text{
+  width: 990px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Q-text .text{
+  height: 60px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.Q-text .reply-button {
+  margin: 0 auto;
+  border-radius: 100vh;
+  background-color: #0066cc;
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.Q-text .reply-button .reply-button-li {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
