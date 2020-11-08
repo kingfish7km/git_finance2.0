@@ -1,13 +1,23 @@
 <div class="Question-show">
   <div class="Q-area">
-    
+    <h2 class="Q-mark">Q</h2>
   </div>
-  
-  
+  <div class="Q-text-are">
+    <div class="text-area">
+      <p><%= @question.text %></p>
+    </div>
+  </div>
 </div>
 
-<p><%= @question.text %></p>
-
 <% @replies.each do |reply| %>
-  <p><%= reply.text %></p>
+  <div class="Replies">
+    <div class="A-icon">
+      <h2 class="A">A</h2>
+    </div>
+    <div class="A-text-are">
+      <div class="A-text">
+        <p><%= reply.text %></p>
+      </div>
+    </div>
+  </div>
 <% end %>
