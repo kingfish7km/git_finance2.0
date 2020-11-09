@@ -10,14 +10,20 @@
 </div>
 
 <% @replies.each do |reply| %>
-  <div class="Replies">
-    <div class="A-icon">
-      <h2 class="A">A</h2>
-    </div>
-    <div class="A-text-area">
-      <div class="A-text">
-        <p><%= reply.text %></p>
+    <div class="Replies">
+      <div class="A-icon">
+        <h2 class="A">A</h2>
+      </div>
+      <div class="A-text-area">
+        <div class="A-text">
+          <p><%= reply.text %></p>
+        </div>
       </div>
     </div>
+<% end %>
+
+<% if @replies.empty? %>
+  <div class="Replies">
+    <p>この質問に対する回答は現在準備中です。</p>
   </div>
 <% end %>
