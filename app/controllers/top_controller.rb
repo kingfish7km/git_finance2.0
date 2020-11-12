@@ -1,6 +1,6 @@
 class TopController < ApplicationController
 
- before_action :authenticate_user!, only: [:show]
+ before_action :authenticate_user!, only: [:show, :show_0, :show_1, :show_2]
  
  def index
  end
