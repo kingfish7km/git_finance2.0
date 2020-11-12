@@ -26,45 +26,51 @@
   </head>
 
   <body>
-    <header class="header">
-      <div class="inner clearfix">
-        <div class="headerTtl clearfix">
-          <h1>
-            <a href="/">
-              金融教育2.0
-            </a>
-          </h1>
+    <div id="wrapper">
+      <header class="header">
+        <div class="inner clearfix">
+          <div class="headerTtl clearfix">
+            <h1>
+              <a href="/">
+                金融教育2.0
+              </a>
+            </h1>
+          </div>
+          <div class="headerNavi clearfix">
+            <ul class="navvar">
+              <li>
+                <a href="/about">About us</a>
+              </li>
+              <li>
+                <a href="/contents">Contents</a>
+              </li>
+              <li>
+                <a href="/contact">Contact us</a>
+              </li>
+              <% if user_signed_in? %>
+                <li>
+                  <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+                </li>
+              <% else %>
+                <li>
+                  <a href="/users/sign_in">Sign in</a>
+                </li>
+                <li>
+                  <a href="/users/sign_up">Sign up</a>
+                </li>
+              <% end %>
+            </ul>
+          </div>
         </div>
-        <div class="headerNavi clearfix">
-          <ul class="navvar">
-            <li>
-              <a href="/about">About us</a>
-            </li>
-            <li>
-              <a href="/contents">Contents</a>
-            </li>
-            <li>
-              <a href="/contact">Contact us</a>
-            </li>
-            <% if user_signed_in? %>
-              <li>
-                <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
-              </li>
-            <% else %>
-              <li>
-                <a href="/users/sign_in">Sign in</a>
-              </li>
-              <li>
-                <a href="/users/sign_up">Sign up</a>
-              </li>
-            <% end %>
-          </ul>
-        </div>
-      </div>
-    </header>
-    
+      </header>
+
     <%= yield %>
     
+      <footer class="footer">
+        <p>© 2020 finance2.0, Inc.</p>
+      </footer>
+    </div>
+
   </body>
   
 </html>
