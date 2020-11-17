@@ -327,3 +327,22 @@ header a{
   margin: 0 15px;
   line-height: 12px
 }
+
+.login-forget {
+ display: flex; 
+}
+
+.login-button {
+  margin: 10px 28px;
+  background-color: #1fb5bf;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.login-forget .forget-li {
+  color: #1fb5bf;
+  text-decoration: none;
+}
