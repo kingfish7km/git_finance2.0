@@ -23,4 +23,7 @@ class TopController < ApplicationController
  def show_2
  end
  
+ def show_3
+ end
+ 
 end
