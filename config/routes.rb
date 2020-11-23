@@ -8,6 +8,7 @@ Rails.application.routes.draw do
  get '0' => 'top#show_0'
  get '1' => 'top#show_1'
  get '2' => 'top#show_2'
+ get '3' => 'top#show_3'
  
  scope ':chapter_number' do
    resources :questions do
