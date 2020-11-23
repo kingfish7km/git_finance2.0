@@ -1,0 +1,21 @@
+<div class="questions-index-title">
+  <h2 class="Qtitle">「Chapter_2 投資と投機①」について、これまで頂いた質問</h2>
+</div>
+
+<div class="contents-row">
+  <% @questions.each do |question| %>
+    <div class="Question">
+      <div class="Q-icon">
+         <h2 class="Q">Q</h2>
+      </div>
+      <div class="Q-text">
+        <div class="text">
+          <p><%= question.text %></p>  
+        </div>
+        <div class="reply-button">
+          <%= link_to 'この質問に対する回答を見る ▶︎', "/#{question.chapter_number}/questions/#{question.id}", method: :get, class: "reply-button-li" %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
