@@ -307,14 +307,9 @@ header a{
   margin: 30px 20px;
 }
 
-.field {
-  display: flex;
-  margin: 0 20px;
-}
-
 .form-group {
-  margin: 15px 48px;
   display: flex;
+  margin: 15px 48px;
 }
 
 .form-control {
@@ -322,7 +317,6 @@ header a{
   box-sizing: content-box;
   border: solid 2px #000;
   width: 300px;
-  
 }
 
 .remember-me {
@@ -349,6 +343,11 @@ header a{
   color: #1fb5bf;
   text-decoration: none;
   line-height: 30px;
+}
+
+.login-button-li {
+  text-decoration: none;
+  color: #fff;
 }
 
 .sign-up-please {
@@ -393,3 +392,4 @@ header a{
   display: block;
   margin: 30px 20px;
 }
+
