@@ -4,15 +4,15 @@
   
     <div class="login-inner">
       <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-        <li class="form-group">
+        <div class="form-group">
           <%= f.label :email, "Email" %>
     　　    <%= f.email_field :email, autocomplete: "email", class: 'form-control' %>
-  　  　  </li>
+    　　  </div>
     
-        <li class="form-group">
+        <div class="form-group">
           <%= f.label :password, "Password" %>
           <%= f.password_field :password, autocomplete: "current-password", class: 'form-control' %>
-        </li>
+        </div>
     
         <% if devise_mapping.rememberable? %>
           <div class="form-group">
