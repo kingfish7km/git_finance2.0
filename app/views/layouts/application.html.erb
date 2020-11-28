@@ -49,14 +49,14 @@
               </li>
               <% if user_signed_in? %>
                 <li>
-                  <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+                  <%= link_to 'ログアウト', destroy_user_session_path, method: :delete %>
                 </li>
               <% else %>
                 <li>
-                  <a href="/users/sign_in">Sign in</a>
+                  <a href="/users/sign_in">ログイン</a>
                 </li>
                 <li>
-                  <a href="/users/sign_up">Sign up</a>
+                  <a href="/users/sign_up">新規登録</a>
                 </li>
               <% end %>
             </ul>
