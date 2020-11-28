@@ -309,10 +309,6 @@ header a{
   line-height: 13px
 }
 
-.login-forget {
- display: flex; 
-}
-
 .login-button {
   background-color: #1fb5bf;
   color: #fff;
