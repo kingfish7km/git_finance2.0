@@ -309,7 +309,8 @@ header a{
 }
 
 .form-group {
-  margin: 15px 48px;
+  margin: 20px 40px;
+  padding-top: 10px;
 }
 
 .form-control {
