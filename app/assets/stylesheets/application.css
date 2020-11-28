@@ -299,6 +299,11 @@ header a{
   width: 580px;
 }
 
+.form-group-r {
+  margin: 10px 60px;
+  display: flex;
+}
+
 .remember-me {
   margin: 0 15px;
   line-height: 12px
