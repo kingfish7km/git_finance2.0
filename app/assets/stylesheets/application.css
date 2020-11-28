@@ -333,7 +333,7 @@ header a{
 }
 
 .form-group-r {
-  margin: 10px 60px;
+  margin: 25px 60px;
   display: flex;
 }
 
@@ -343,7 +343,7 @@ header a{
 }
 
 .large-login-button{
-  margin: 20px 60px;
+  margin: 30px 60px;
   background-color: #1fb5bf;
   color: #fff;
   width: 580px;
@@ -378,7 +378,7 @@ header a{
 }
 
 .sign-up-please .sign-up-please-inner {
-  margin: 0px 20px;
+  margin: 10px 60px;
 }
 
 .sign-up-button {
