@@ -309,6 +309,17 @@ header a{
   line-height: 13px
 }
 
+.large-login-button{
+  margin: 20px 60px;
+  background-color: #1fb5bf;
+  color: #fff;
+  width: 580px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 15px;
+}
+
 .login-button {
   background-color: #1fb5bf;
   color: #fff;
