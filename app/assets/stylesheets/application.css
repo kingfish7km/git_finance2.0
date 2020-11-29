@@ -87,7 +87,7 @@ header a{
   color: #FF1493;
   letter-spacing: 5px;
   font-size: 1.5rem;
-  background: url('https://beiz.jp/images_T/cherry-blossom/cherry-blossom_00035.jpg') fixed;
+  background: url('cherry-blossom_00035.jpg');
   background-size: cover;
 }
 
