@@ -8,10 +8,11 @@
   <div class="form">
     <div class="form-inner">
       <%= form_for @question, url: { action: "create" } do |f| %>
-           
-         <%= f.label :text, "質問内容" %><br/>
-         <%= f.text_field :text %><br/>
-         <%= submit_tag '送信' %>
+        <div class="form-group">
+          <%= f.label :text, "質問内容" %><br/>
+          <%= f.text_field :text %><br/>
+          <%= submit_tag '送信' %>
+        </div>   
       <% end %>
     </div>
   </div>
