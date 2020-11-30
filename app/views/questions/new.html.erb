@@ -5,13 +5,16 @@
     <p>※質問内容につきましては、ご確認の上、送信をお願いします。</p>
   </div>
   
-
-  <div class="contents-row">
-    <%= form_for @question, url: { action: "create" } do |f| %>
-       <%= f.text_field :text %>
-       <%= submit_tag '送信' %>
-    <% end %>
+  <div class="form">
+    <div class="contents-row">
+      <%= form_for @question, url: { action: "create" } do |f| %>
+         <%= f.text_field :text %>
+         <%= submit_tag '送信' %>
+      <% end %>
+    </div>
   </div>
+
+  
   
   
 </div>
