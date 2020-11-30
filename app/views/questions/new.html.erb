@@ -6,7 +6,7 @@
   </div>
   
   <div class="form">
-    <div class="contents-row">
+    <div class="form-inner">
       <%= form_for @question, url: { action: "create" } do |f| %>
          <%= f.text_field :text %>
          <%= submit_tag '送信' %>
