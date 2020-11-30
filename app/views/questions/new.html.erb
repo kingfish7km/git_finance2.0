@@ -10,7 +10,7 @@
       <%= form_for @question, url: { action: "create" } do |f| %>
         <div class="form-group-2">
           <%= f.label :text, "質問内容" %><br/>
-          <%= f.text_field :text %><br/>
+          <%= f.text_field :text, class: 'form-control-2' %><br/>
           <%= submit_tag '送信' %>
         </div>   
       <% end %>
