@@ -1,13 +1,17 @@
+<div class="top-view-contents-row">
+  <h2></h2>金融教育2.0では質問を受け付けています。
+  <p>下記質問を送信します。よろしいですか？</p>
+  <br>
+  <p>※現在まだ質問の確認画面をご用意出来ておらず、１クリックで送信されます。</p>
+  <p>※質問内容につきましては、ご確認の上、送信をお願いします。</p>
 
-<p>金融教育2.0では質問を受け付けています。</p>
-<p>下記質問を送信します。よろしいですか？</p>
-<br>
-<p>※現在まだ質問の確認画面をご用意出来ておらず、１クリックで送信されます。</p>
-<p>※質問内容につきましては、ご確認の上、送信をお願いします。</p>
-
-<div class="contents-row">
-  <%= form_for @question, url: { action: "create" } do |f| %>
-     <%= f.text_field :text %>
-     <%= submit_tag '送信' %>
-  <% end %>
+  <div class="contents-row">
+    <%= form_for @question, url: { action: "create" } do |f| %>
+       <%= f.text_field :text %>
+       <%= submit_tag '送信' %>
+    <% end %>
+  </div>
+  
+  
 </div>
+
