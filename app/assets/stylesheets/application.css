@@ -402,3 +402,11 @@ header a{
 .form-group-2 {
   margin: 10px 30px;
 }
+
+.form-control-2 {
+  margin: 10px 0;
+  box-sizing: content-box;
+  border: solid 1px #4169e1;
+  border-radius: 5px;
+  width: 640px;
+}
