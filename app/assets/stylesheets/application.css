@@ -160,9 +160,9 @@ header a{
 
 .questions-index-button{
   margin: 0 auto;
-  border-radius: 100vh;
+  border-radius: 20px;
   background-color: #0066cc;
-  width: 350px;
+  width: 330px;
   height: 40px;
   line-height: 40px;
   text-align: center;
