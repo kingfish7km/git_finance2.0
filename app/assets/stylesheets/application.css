@@ -410,3 +410,14 @@ header a{
   border-radius: 5px;
   width: 640px;
 }
+
+.submit-button {
+  margin: 10px 30px;
+  background-color: #1fb5bf;
+  color: #fff;
+  width: 580px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 15px;
+}
