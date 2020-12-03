@@ -1,7 +1,7 @@
 class QuestionsController < ApplicationController
   
   def index
-    @questions = Question.where(chapter_number: params[:chapter_number])
+    @questions = Question.where(chapter_number: params[:chapter_number]).page(params[:page]).per(5)
     render "index_#{params[:chapter_number]}"
   end
   
