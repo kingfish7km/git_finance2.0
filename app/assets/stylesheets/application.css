@@ -226,7 +226,7 @@ header a{
 
 .Q-text .reply-button {
   margin: 0 auto;
-  border-radius: 100vh;
+  border-radius: 15px;
   background-color: #0066cc;
   width: 250px;
   height: 30px;
