@@ -195,8 +195,9 @@ header a{
   width: 1040px;
   height: 100px;
   display: flex;
-  background-color: #ffc0cb;
+  background-color: #fff;
   border-radius: 15px;
+  border: solid 1px #4169e1;
   overflow: hidden;
 }
 
