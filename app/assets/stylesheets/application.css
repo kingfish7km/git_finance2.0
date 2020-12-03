@@ -180,9 +180,9 @@ header a{
 }
 
 .Qtitle {
-  border-left: thick solid red;
+  border-left: thick solid pink;
   text-align: left;
-  padding: 15px 10px;
+  padding: 0px 10px;
 }
 
 .contents-row {
