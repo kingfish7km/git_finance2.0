@@ -215,8 +215,7 @@ header a{
 
 .Q-text{
   width: 990px;
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 .Q-text .text{
