@@ -219,8 +219,8 @@ header a{
 }
 
 .Q-text .text{
-  height: 60px;
-  padding: 10px;
+  height: 110px;
+  padding: 0 10px;
   overflow: hidden;
 }
 
