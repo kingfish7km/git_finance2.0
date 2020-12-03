@@ -186,7 +186,7 @@ header a{
 }
 
 .contents-row {
-  margin: 40px auto;
+  margin: 0px auto;
   width: 1040px;
 }
 
@@ -196,7 +196,7 @@ header a{
   height: 100px;
   display: flex;
   background-color: #ffc0cb;
-  border-radius: 5px;
+  border-radius: 15px;
   overflow: hidden;
 }
 
