@@ -276,6 +276,16 @@ header a{
   padding: 10px;
 }
 
+.replies-notification{
+  margin: 20px auto;
+  width: 700px;
+}
+
+.replies-notification p{
+  border-left: thick solid pink;
+  padding-left: 20px;
+}
+
 .top-view-contents-row {
   margin: 40px auto;
   width: 700px;
