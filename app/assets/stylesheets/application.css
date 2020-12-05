@@ -240,6 +240,11 @@ header a{
   font-size: 15px;
 }
 
+.pagination h3{
+  text-decoration: none;
+  color: #000;
+}
+
 .Question-show {
   margin: 40px auto;
   width: 1040px;
