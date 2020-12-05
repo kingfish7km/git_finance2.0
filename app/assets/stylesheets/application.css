@@ -253,26 +253,6 @@ header a{
   border-radius: 5px;
 }
 
-.Q-area {
-  width: 100px;
-}
-
-.Q-area .Q-mark{
-  width: 100px;
-  border-radius: 50%;
-  background-color: #f56500;
-  color: #fff;
-  text-align: center;
-}
-
-.Q-text-area {
-  width: 940px;
-}
-
-.Q-text-area .text-area{
-  padding: 10px;
-}
-
 .Replies {
   margin: 40px auto;
   width: 800px;
