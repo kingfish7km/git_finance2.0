@@ -437,3 +437,13 @@ header a{
   color: #fff;
   font-size: 1.3rem;
 }
+
+.go-to-contents-button2 {
+  margin: 30px auto 50px;
+  text-align: center;
+  background-color: #ff8c00;
+  width: 250px;
+  height: 60px;
+  border-radius: 5px;
+  line-height: 60px
+}
