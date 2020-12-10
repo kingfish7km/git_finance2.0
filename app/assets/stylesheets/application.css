@@ -447,3 +447,17 @@ header a{
   border-radius: 5px;
   line-height: 60px
 }
+
+.next-action-button {
+  margin: 20px 0;
+}
+
+.back-to-contents-li {
+  text-decoration: none;
+  float: left;
+}
+
+.next-chapter-li {
+  text-decoration: none;
+  float: right;
+}
