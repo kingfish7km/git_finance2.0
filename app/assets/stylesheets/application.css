@@ -461,3 +461,10 @@ header a{
   text-decoration: none;
   float: right;
 }
+.insert-chart {
+  margin: 0 auto;
+  width: 400px;
+  height: 220px;
+  background-image: url('chart_1.jpg');
+  background-size: contain;
+}
