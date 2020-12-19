@@ -468,3 +468,11 @@ header a{
   background-image: url('chart_1.jpg');
   background-size: contain;
 }
+
+.insert-chart2 {
+  margin: 0 auto;
+  width: 400px;
+  height: 220px;
+  background-image: url('chart_2.jpg');
+  background-size: contain;
+}
