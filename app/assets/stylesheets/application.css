@@ -476,3 +476,11 @@ header a{
   background-image: url('chart_2.jpg');
   background-size: contain;
 }
+
+.insert-chart3 {
+  margin: 0 auto;
+  width: 600px;
+  height: 300px;
+  background-image: url('chart_3.png');
+  background-size: contain;
+}
