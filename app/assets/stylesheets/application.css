@@ -484,3 +484,15 @@ header a{
   background-image: url('chart_3.png');
   background-size: contain;
 }
+
+.site-title-sub-about{
+  text-align: center;
+  margin: 0 auto;
+  padding: 25vh 0;
+  width: 1040px;
+  color: #fff;
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+  background: url('水面.jpg');
+  background-size: cover;
+}
