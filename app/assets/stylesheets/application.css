@@ -79,6 +79,10 @@ header a{
   text-align: center;
 }
 
+.footer p{
+  padding-top: 15px;
+}
+
 .site-title-sub{
   text-align: center;
   margin: 0 auto;
